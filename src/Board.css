@@ -3,12 +3,11 @@
 
 .board { 
 	display: grid;
-	grid-template-columns: 125px repeat(9, 80px) 125px;
-	grid-template-rows: 125px repeat(9, 80px) 125px;
-/* 	grid-gap: 2px; */
-	/* margin: 50px auto; */
-	width: 970px;
-	height: 970px;
+	grid-template-columns: 12% repeat(9, 8.44%) 12%;
+	grid-template-rows: 12% repeat(9, 8.44%) 12%;
+	margin: 20px ;
+	width: 96vh;
+	height: 95vh;
 	background: #BFDBAE;
 	border: solid;
 }
