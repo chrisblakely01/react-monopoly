@@ -5,7 +5,7 @@
 	display: grid;
 	grid-template-columns: 12% repeat(9, 8.44%) 12%;
 	grid-template-rows: 12% repeat(9, 8.44%) 12%;
-	margin: 20px ;
+	margin: 20px;
 	width: 96vh;
 	height: 95vh;
 	background: #BFDBAE;
@@ -40,11 +40,40 @@
 
 /* TILES */
 .color-bar {
-	height: 25px;
+	height: 20%;
 	background-color: brown;
 	border-bottom: solid;
 }
 
+.go-tile {
+	position: relative;
+}
+
+.go-tile .arrow {
+    position: absolute;
+    left: 2vw;
+    top: 6vh;
+	font-size: 6vh;
+	transform: scale(1.7,1); 
+	color: black;
+}
+
+.go-tile .go-subtext{
+	font-size: 1.5vh;
+	transform: rotate(320deg);
+	width: 8vh;
+    text-align: center;
+	margin-top: 1vh;
+}
+
+.go-tile .go-text{
+	font-size: 5.5vh;
+	font-weight: bold;
+	transform: rotate(320deg);
+	text-align: center;
+	margin-left: 4vh;
+    margin-top: -2vh;
+}
 
 /* BOTTOM ROW */
 .bottom-tile {

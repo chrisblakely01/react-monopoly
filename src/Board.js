@@ -10,7 +10,15 @@ class Board extends Component {
 						<div class="chance-deck"></div>
 						<div class="community-deck"></div>
 					</div>
-					<div class="bottom-tile bottom-row-1"></div>
+					<div class="bottom-tile bottom-row-1">
+						<div class="go-tile">
+							<div class="go-subtext">Pass go & Collect £200</div>
+							<div class="go-text">GO</div>
+							{/* <div class="arrow">
+								<i class="fas fa-long-arrow-alt-left"></i>
+							</div> */}
+						</div>
+					</div>
 					<div class="bottom-tile bottom-row-2">
 						<div class="color-bar"></div>
 					</div>
