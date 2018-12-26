@@ -1,0 +1,58 @@
+.brown {
+	background-color: SaddleBrown;
+}
+
+.light-blue {
+	background-color:SkyBlue;
+}
+
+
+/* PROPERTY */
+.property-bottom {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%; 
+}
+.property-bottom-color-bar {
+	height: 20%;
+	border-bottom: solid;
+}
+
+.property-bottom-name {
+    font-size: 10px;
+    text-align: center;
+}
+
+.property-bottom-cost {
+	font-size: 15x;
+    text-align: center;
+}
+
+/* GO */
+.go-tile {
+	position: relative;
+}
+
+.go-tile .arrow {
+    position: absolute;
+    left: 2vw;
+    top: 6vh;
+	font-size: 6vh;
+	transform: scale(1.7,1); 
+	color: black;
+}
+
+.go-tile .go-subtext{
+	font-size: 1.5vh;
+	/* transform: rotate(320deg); */
+    text-align: center;
+	margin-top: 1vh;
+}
+
+.go-tile .go-text{
+	font-size: 4.5vh;
+	font-weight: bold;
+	/* transform: rotate(320deg); */
+	text-align: center;
+}

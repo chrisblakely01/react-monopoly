@@ -1,0 +1,38 @@
+.green {
+	background-color: Green;
+}
+
+.dark-blue {
+	background-color: Blue;
+}
+
+
+.go-to-jail-tile {
+	text-align: center;
+}
+
+.property-right {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%; 
+	justify-content:space-between;
+}
+
+.property-right-content {
+	width: 100%;
+}
+.property-right-color-bar {
+	width: 20%;
+	border-right: solid;
+}
+
+.property-right-name {
+    font-size: 10px;
+    text-align: center;
+}
+
+.property-right-cost {
+	font-size: 15x;
+    text-align: center;
+}

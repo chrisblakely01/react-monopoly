@@ -23,12 +23,26 @@
     grid-template-rows: repeat(18, 1fr);
 }
 
+.monopoly-title {
+	transform: rotate(320deg);
+	grid-row:9/11;
+	grid-column: 3/17;
+	display: flex;
+	align-items : center;
+	justify-content: center;
+	height: 100%;
+	font-size: 7.0vh;
+	/* color: white; */
+	/* background-color: red; */
+	letter-spacing: 3vh;
+}
+
 .chance-deck {
 	transform: rotate(320deg);
 	border: solid;
 	background:burlywood;
 	grid-row: 3/6;
-	grid-column: 3/8;
+	grid-column: 2/8;
 }
 
 .community-deck {
@@ -36,122 +50,38 @@
 	border: solid;
 	background:burlywood;
 	grid-row: 14/17;
-    grid-column: 12/17;
+    grid-column: 12/18;
 }
 
-/* TILES */
-
-/* COLOURS */
-.brown {
-	background-color: SaddleBrown;
+.community-deck-text {
+	display : flex;
+	align-items : center;
+	justify-content: center;
+	height: 100%;
 }
 
-.light-blue {
-	background-color:SkyBlue;
-}
-.purple {
-	background-color:DarkOrchid;
-}
-
-.orange {
-	background-color: Orange;
+.chance-deck-text {
+	display : flex;
+	align-items : center;
+	justify-content: center;
+	height: 100%;
 }
 
-.red {
-	background-color: Red;
-}
-
-.yellow {
-	background-color: yellow;
-}
-
-.green {
-	background-color: Green;
-}
-
-.dark-blue {
-	background-color: Blue;
-}
-
-
-
-/* PROPERTY */
-.property{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100%; 
-	justify-content:space-between;
-}
-.property-color-bar {
-	height: 20%;
-	border-bottom: solid;
-}
-
-.property-name {
-    font-size: 10px;
+/* COMMON TILES */
+.community-chest,
+.railroad,
+.utility,
+.income-tax,
+.chance {
+    font-size: 1.4vh;
     text-align: center;
 }
 
-.property-cost {
-	font-size: 15x;
-    text-align: center;
-}
-
-/* GO */
-.go-tile {
-	position: relative;
-}
-
-.go-tile .arrow {
-    position: absolute;
-    left: 2vw;
-    top: 6vh;
-	font-size: 6vh;
-	transform: scale(1.7,1); 
-	color: black;
-}
-
-.go-tile .go-subtext{
-	font-size: 1.5vh;
-	transform: rotate(320deg);
-	width: 8vh;
-    text-align: center;
-	margin-top: 1vh;
-}
-
-.go-tile .go-text{
-	font-size: 5.5vh;
-	font-weight: bold;
-	transform: rotate(320deg);
-	text-align: center;
-	margin-left: 4vh;
-    margin-top: -2vh;
+.icon {
+	font-size: 2.5vh;
 }
 
 /* BOTTOM ROW */
-/* PROPERTY */
-.property{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100%; 
-	justify-content:space-between;
-}
-.property-color-bar {
-	height: 20%;
-	border-bottom: solid;
-}
-
-.property-name {
-    font-size: 10px;
-    text-align: center;
-}
-
-.property-cost {
-	font-size: 15x;
-    text-align: center;
-}
 .bottom-tile {
 	background-color: #BFDBAE;;
 	border-top: solid;
@@ -290,7 +220,6 @@
 
 /* TOP ROW */
 .top-tile {
-	background-color: red;
 	border-right: solid;
 	border-bottom: solid;
 }
@@ -362,7 +291,6 @@
 
 /* RIGHT ROW */
 .right-tile {
-	background-color: green;
 	border-bottom: solid;
 	border-left: solid;
 }

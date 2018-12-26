@@ -1,0 +1,33 @@
+.red {
+	background-color: Red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.free-parking-tile {
+	text-align: center;
+}
+
+.property-top {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%; 
+	justify-content:space-between;
+}
+.property-top-color-bar {
+	height: 20%;
+	border-top: solid;
+}
+
+.property-top-name {
+    font-size: 10px;
+    text-align: center;
+}
+
+.property-top-cost {
+	font-size: 15x;
+    text-align: center;
+}

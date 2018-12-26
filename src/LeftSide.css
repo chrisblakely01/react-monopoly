@@ -1,0 +1,37 @@
+.purple {
+	background-color:DarkOrchid;
+}
+
+.orange {
+	background-color: Orange;
+}
+
+.jail-tile {
+	text-align: center;
+}
+
+.property-left {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%; 
+	justify-content:space-between;
+}
+
+.property-left-content {
+	width: 100%;
+}
+.property-left-color-bar {
+	width: 20%;
+	border-left: solid;
+}
+
+.property-left-name {
+    font-size: 10px;
+    text-align: center;
+}
+
+.property-left-cost {
+	font-size: 15x;
+    text-align: center;
+}
